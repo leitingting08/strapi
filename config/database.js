@@ -7,7 +7,7 @@ module.exports = ({ env }) => ({
         client: 'mongo',
         host: env('DATABASE_HOST', 'localhost'),
         port: env.int('DATABASE_PORT', 27017),
-        database: env('DATABASE_NAME', 'strapi'),
+        database: env('DATABASE_NAME', 'blog'),
         username: env('DATABASE_USERNAME', 'blog'),
         password: env('DATABASE_PASSWORD', '123456'),
       },

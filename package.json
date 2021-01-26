@@ -11,16 +11,17 @@
   },
   "devDependencies": {},
   "dependencies": {
+    "knex": "^0.21.16",
     "strapi": "latest",
     "strapi-admin": "latest",
-    "strapi-utils": "latest",
-    "strapi-plugin-content-type-builder": "latest",
+    "strapi-connector-bookshelf": "latest",
+    "strapi-connector-mongoose": "latest",
     "strapi-plugin-content-manager": "latest",
-    "strapi-plugin-users-permissions": "latest",
+    "strapi-plugin-content-type-builder": "latest",
     "strapi-plugin-email": "latest",
     "strapi-plugin-upload": "latest",
-    "strapi-connector-bookshelf": "latest",
-    "strapi-connector-mongoose": "latest"
+    "strapi-plugin-users-permissions": "latest",
+    "strapi-utils": "latest"
   },
   "author": {
     "name": "A Strapi developer"
