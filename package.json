@@ -11,15 +11,15 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.4.3",
-    "strapi-admin": "3.4.3",
-    "strapi-utils": "3.4.3",
-    "strapi-plugin-content-type-builder": "3.4.3",
-    "strapi-plugin-content-manager": "3.4.3",
-    "strapi-plugin-users-permissions": "3.4.3",
-    "strapi-plugin-email": "3.4.3",
-    "strapi-plugin-upload": "3.4.3",
-    "strapi-connector-bookshelf": "3.4.3",
+    "strapi": "latest",
+    "strapi-admin": "latest",
+    "strapi-utils": "latest",
+    "strapi-plugin-content-type-builder": "latest",
+    "strapi-plugin-content-manager": "latest",
+    "strapi-plugin-users-permissions": "latest",
+    "strapi-plugin-email": "latest",
+    "strapi-plugin-upload": "latest",
+    "strapi-connector-bookshelf": "latest",
     "knex": "<0.20.0",
     "strapi-connector-mongoose": "latest"
   },
@@ -30,7 +30,6 @@
     "uuid": "7553bbcf-20ca-4066-8d82-d07b09eefb9d"
   },
   "engines": {
-    "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
